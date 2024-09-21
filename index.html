@@ -34,84 +34,151 @@
   </head>
   <body class="font-['Bai Jamjuree'] text-grayishBlue text-lg">
     <header
-      class="flex h-96 items-center justify-center bg-[url('../images/bg-header-mobile.png')] bg-cover bg-no-repeat"
+      class="flex h-80 items-center justify-center bg-[url('../images/bg-header-mobile.png')] bg-cover bg-no-repeat"
     >
-      <img src="images/logo.svg" alt="" />
+      <img class="border-none" src="images/logo.svg" alt="" />
     </header>
-    <main>
-      <h1 class="text-4xl">A history of everything you copy</h1>
-      <p>
-        Clipboard allows you to track and organize everything you copy.
-        Instantly access your clipboard on all your devices.
-      </p>
+    <main class="px-8">
       <div>
-        <button>Download for iOS</button>
-        <button>Download for Mac</button>
+        <h1
+          class="text-darkGrayishBlue mb-5 text-center text-[35px] font-semibold"
+        >
+          A history of everything you copy
+        </h1>
+        <p class="mb-10 text-center">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+      </div>
+      <div class="mb-40 flex flex-col items-center gap-5">
+        <button
+          class="bg-strongCyan w-full min-w-max max-w-sm rounded-full border-b-4 border-b-teal-600 px-10 py-4 text-white shadow-lg shadow-cyan-100"
+        >
+          Download for iOS
+        </button>
+        <button
+          class="bg-lightBlue w-full min-w-max max-w-sm rounded-full border-b-4 border-b-blue-600 px-10 py-4 text-white shadow-lg shadow-blue-100"
+        >
+          Download for Mac
+        </button>
       </div>
 
-      <h2>Keep track of your snippets</h2>
-      <p>
+      <div class="mb-20">
+        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold">
+        Keep track of your snippets
+      </h2>
+      <p class="text-center">
         Clipboard instantly stores any item you copy in the cloud, meaning you
         can access your snippets immediately on all your devices. Our Mac and
         iOS apps will help you organize everything.
       </p>
+      </div>
 
-      <h3>Quick Search</h3>
-      <p>
-        Easily search your snippets by content, category, web address,
-        application, and more.
-      </p>
+      <div class="flex flex-col gap-10 mb-40">
+          <img src="images/image-computer.png" alt="computer">
+          <div class="mt-10">
+            <h3 class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold">Quick Search</h3>
+          <p class="text-center">
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+          </div>
+          <div>
+            <h3 class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold">iCloud Sync</h3>
+            <p class="text-center">Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div>
+            <h3 class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold">Complete History</h3>
+            <p class="text-center">
+              Retrieve any snippets from the first moment you started using the app.
+            </p>
+          </div>
+        </div>
 
-      <h3>iCloud Sync</h3>
-      <p>Instantly saves and syncs snippets across all your devices.</p>
 
-      <h3>Complete History</h3>
-      <p>
-        Retrieve any snippets from the first moment you started using the app.
-      </p>
-
-      <h2>Access Clipboard anywhere</h2>
-      <p>
+      <div class="mb-20">
+        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold">Access Clipboard anywhere</h2>
+      <p class="text-center">
         Whether you’re on the go, or at your computer, you can access all your
         Clipboard snippets in a few simple clicks.
       </p>
+      </div>
 
-      <h2>Supercharge your workflow</h2>
-      <p>We’ve got the tools to boost your productivity.</p>
+      <img src="images/image-devices.png" alt="devices">
 
-      <h3>Create blacklists</h3>
-      <p>
+      <div class="mb-20">
+        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold mt-40">Supercharge your workflow</h2>
+      <p class="text-center">We’ve got the tools to boost your productivity.</p>
+      </div>
+
+      <div class="mb-16">
+        <img class="m-auto" src="images/icon-blacklist.svg" alt="">
+        <h3 class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold">Create blacklists</h3>
+      <p class="text-center">
         Ensure sensitive information never makes its way to your clipboard by
         excluding certain sources.
       </p>
+      </div>
 
-      <h3>Plain text snippets</h3>
-      <p>Remove unwanted formatting from copied text for a consistent look.</p>
+      <div class="mb-16">
+        <img class="m-auto" src="images/icon-text.svg" alt="">
+        <h3 class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold">Plain text snippets</h3>
+      <p class="text-center">Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
 
-      <h3>Sneak preview</h3>
-      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      <div class="mb-40">
+        <img class="m-auto" src="images/icon-preview.svg" alt="">
+        <h3 class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold">Sneak preview</h3>
+      <p class="text-center">Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
 
-      <h2>Clipboard for iOS and Mac OS</h2>
-      <p>
+      <div class="mb-40">
+        <img class="m-auto mb-20" src="images/logo-google.png" alt="google">
+        <img class="m-auto mb-20" src="images/logo-ibm.png" alt="ibm">
+        <img class="m-auto mb-20" src="images/logo-microsoft.png" alt="microsoft">
+        <img class="m-auto mb-20" src="images/logo-hp.png" alt="hp">
+        <img class="m-auto mb-20" src="images/logo-vector-graphics.png" alt="vector">
+      </div>
+
+      <div class="mb-10">
+        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold">Clipboard for iOS and Mac OS</h2>
+      <p class="text-center">
         Available for free on the App Store. Download for Mac or iOS, sync with
         iCloud and you’re ready to start adding to your clipboard.
       </p>
-
-      <div>
-        <button>Download for iOS</button>
-        <button>Download for Mac</button>
       </div>
 
-      <div>
-        <div>FAQs</div>
-        <div>Contact Us</div>
-        <div>Privacy Policy</div>
-        <div>Press Kit</div>
-        <div>Install Guide</div>
+      <div class="mb-40 flex flex-col items-center gap-5">
+        <button
+          class="bg-strongCyan w-full min-w-max max-w-sm rounded-full border-b-4 border-b-teal-600 px-10 py-4 text-white shadow-lg shadow-cyan-100"
+        >
+          Download for iOS
+        </button>
+        <button
+          class="bg-lightBlue w-full min-w-max max-w-sm rounded-full border-b-4 border-b-blue-600 px-10 py-4 text-white shadow-lg shadow-blue-100"
+        >
+          Download for Mac
+        </button>
       </div>
+
     </main>
-
+    
     <footer>
+      <div class="text-center bg-gray-100 p-10">
+        <img class="m-auto mb-10 w-16" src="images/logo.svg" alt="logo">
+        <div class="text-darkGrayishBlue mb-6">FAQs</div>
+        <div class="text-darkGrayishBlue mb-6">Contact Us</div>
+        <div class="text-darkGrayishBlue mb-6">Privacy Policy</div>
+        <div class="text-darkGrayishBlue mb-6">Press Kit</div>
+        <div class="text-darkGrayishBlue mb-6">Install Guide</div>
+  
+        <div class="flex gap-10 justify-center mt-10">
+          <img src="images/icon-facebook.svg" alt="facebook">
+          <img src="images/icon-twitter.svg" alt="twitter">
+          <img src="images/icon-instagram.svg" alt="instagram">
+        </div>
+      </div>
+      
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
