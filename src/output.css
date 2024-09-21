@@ -554,10 +554,93 @@ video {
   display: none;
 }
 
-.font-\[\] {
-  font-family: ;
+.flex {
+  display: flex;
 }
 
-.font-\[\'\'\] {
-  font-family: '';
+.h-full {
+  height: 100%;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'image\'\)\] {
+  background-image: url('image');
+}
+
+.bg-\[url\(\'\.\.\/image\'\)\] {
+  background-image: url('../image');
+}
+
+.bg-\[url\(\'\.\.\/images\/\'\)\] {
+  background-image: url('../images/');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg\'\)\] {
+  background-image: url('../images/bg');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header-desktop\.png\'\)\] {
+  background-image: url('../images/bg-header-desktop.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header-mobile\.png\'\)\] {
+  background-image: url('../images/bg-header-mobile.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-grayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(201 11% 66% / var(--tw-text-opacity));
 }
