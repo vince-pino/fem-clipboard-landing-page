@@ -553,3 +553,11 @@ video {
 [hidden] {
   display: none;
 }
+
+.font-\[\] {
+  font-family: ;
+}
+
+.font-\[\'\'\] {
+  font-family: '';
+}
