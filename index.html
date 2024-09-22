@@ -34,151 +34,221 @@
   </head>
   <body class="font-['Bai Jamjuree'] text-grayishBlue text-lg">
     <header
-      class="flex h-80 items-center justify-center bg-[url('../images/bg-header-mobile.png')] bg-cover bg-no-repeat"
+      class="flex h-80 items-center justify-center bg-[url('../images/bg-header-mobile.png')] bg-cover bg-no-repeat md:bg-[url('../images/bg-header-desktop.png')]"
     >
       <img class="border-none" src="images/logo.svg" alt="" />
     </header>
     <main class="px-8">
       <div>
         <h1
-          class="text-darkGrayishBlue mb-5 text-center text-[35px] font-semibold"
+          class="text-darkGrayishBlue mb-5 text-center text-[35px] font-semibold md:text-[40px]"
         >
           A history of everything you copy
         </h1>
-        <p class="mb-10 text-center">
+        <p class="m-auto mb-10 max-w-[658px] text-center">
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </p>
       </div>
-      <div class="mb-40 flex flex-col items-center gap-5">
+      <div
+        class="mb-40 flex flex-col items-center gap-5 md:flex-row md:justify-center"
+      >
         <button
-          class="bg-strongCyan w-full min-w-max max-w-sm rounded-full border-b-4 border-b-teal-600 px-10 py-4 text-white shadow-lg shadow-cyan-100"
+          class="bg-strongCyan w-full min-w-max max-w-sm rounded-full border-b-4 border-b-teal-600 px-10 py-3 text-white shadow-lg shadow-cyan-100 md:max-w-max"
         >
           Download for iOS
         </button>
         <button
-          class="bg-lightBlue w-full min-w-max max-w-sm rounded-full border-b-4 border-b-blue-600 px-10 py-4 text-white shadow-lg shadow-blue-100"
+          class="bg-lightBlue w-full min-w-max max-w-sm rounded-full border-b-4 border-b-blue-600 px-10 py-3 text-white shadow-lg shadow-blue-100 md:max-w-max"
         >
           Download for Mac
         </button>
       </div>
 
       <div class="mb-20">
-        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold">
-        Keep track of your snippets
-      </h2>
-      <p class="text-center">
-        Clipboard instantly stores any item you copy in the cloud, meaning you
-        can access your snippets immediately on all your devices. Our Mac and
-        iOS apps will help you organize everything.
-      </p>
+        <h2
+          class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold"
+        >
+          Keep track of your snippets
+        </h2>
+        <p class="m-auto max-w-[658px] text-center md:text-base">
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS apps will help you organize everything.
+        </p>
       </div>
 
-      <div class="flex flex-col gap-10 mb-40">
-          <img src="images/image-computer.png" alt="computer">
-          <div class="mt-10">
-            <h3 class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold">Quick Search</h3>
-          <p class="text-center">
-            Easily search your snippets by content, category, web address,
-            application, and more.
-          </p>
+      <div class="mb-40 flex flex-col md:-ml-20 md:flex-row md:gap-10 lg:gap-24">
+        <div class="md:min-w-[500px]">
+          <img src="images/image-computer.png" alt="computer" />
+        </div>
+        <div
+          class="mt-20 flex flex-col justify-center gap-20 md:mt-16 md:min-w-72 md:max-w-[360px] md:items-start md:gap-10"
+        >
+          <div>
+            <h3
+              class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold md:text-left"
+            >
+              Quick Search
+            </h3>
+            <p class="text-center md:text-left md:text-base">
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
           </div>
           <div>
-            <h3 class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold">iCloud Sync</h3>
-            <p class="text-center">Instantly saves and syncs snippets across all your devices.</p>
+            <h3
+              class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold md:text-left"
+            >
+              iCloud Sync
+            </h3>
+            <p class="text-center md:text-left md:text-base">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
           </div>
           <div>
-            <h3 class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold">Complete History</h3>
-            <p class="text-center">
-              Retrieve any snippets from the first moment you started using the app.
+            <h3
+              class="text-darkGrayishBlue mb-5 text-center text-2xl font-semibold md:text-left"
+            >
+              Complete History
+            </h3>
+            <p class="text-center md:text-left md:text-base">
+              Retrieve any snippets from the first moment you started using the
+              app.
             </p>
           </div>
         </div>
-
+      </div>
 
       <div class="mb-20">
-        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold">Access Clipboard anywhere</h2>
-      <p class="text-center">
-        Whether you’re on the go, or at your computer, you can access all your
-        Clipboard snippets in a few simple clicks.
-      </p>
+        <h2
+          class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold md:text-4xl"
+        >
+          Access Clipboard anywhere
+        </h2>
+        <p class="m-auto max-w-[680px] text-center">
+          Whether you’re on the go, or at your computer, you can access all your
+          Clipboard snippets in a few simple clicks.
+        </p>
       </div>
 
-      <img src="images/image-devices.png" alt="devices">
+      <img class="m-auto" src="images/image-devices.png" alt="devices" />
 
       <div class="mb-20">
-        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold mt-40">Supercharge your workflow</h2>
-      <p class="text-center">We’ve got the tools to boost your productivity.</p>
+        <h2
+          class="text-darkGrayishBlue mb-5 mt-40 text-center text-3xl font-semibold md:text-4xl"
+        >
+          Supercharge your workflow
+        </h2>
+        <p class="text-center">
+          We’ve got the tools to boost your productivity.
+        </p>
       </div>
 
-      <div class="mb-16">
-        <img class="m-auto" src="images/icon-blacklist.svg" alt="">
-        <h3 class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold">Create blacklists</h3>
-      <p class="text-center">
-        Ensure sensitive information never makes its way to your clipboard by
-        excluding certain sources.
-      </p>
+      <div class="flex-row md:mx-20 md:flex md:gap-10">
+        <div class="mb-16 md:w-1/3">
+          <img class="m-auto h-8" src="images/icon-blacklist.svg" alt="" />
+          <h3
+            class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold whitespace-nowrap"
+          >
+            Create blacklists
+          </h3>
+          <p class="text-center">
+            Ensure sensitive information never makes its way to your clipboard
+            by excluding certain sources.
+          </p>
+        </div>
+        <div class="mb-16 md:w-1/3">
+          <img class="m-auto h-8" src="images/icon-text.svg" alt="" />
+          <h3
+            class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold whitespace-nowrap"
+          >
+            Plain text snippets
+          </h3>
+          <p class="text-center">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </div>
+        <div class="mb-40 md:w-1/3">
+          <img class="m-auto h-8" src="images/icon-preview.svg" alt="" />
+          <h3
+            class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold whitespace-nowrap"
+          >
+            Sneak preview
+          </h3>
+          <p class="text-center">
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </div>
       </div>
 
-      <div class="mb-16">
-        <img class="m-auto" src="images/icon-text.svg" alt="">
-        <h3 class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold">Plain text snippets</h3>
-      <p class="text-center">Remove unwanted formatting from copied text for a consistent look.</p>
-      </div>
-
-      <div class="mb-40">
-        <img class="m-auto" src="images/icon-preview.svg" alt="">
-        <h3 class="text-darkGrayishBlue mb-5 mt-8 text-center text-2xl font-semibold">Sneak preview</h3>
-      <p class="text-center">Quick preview of all snippets on your Clipboard for easy access.</p>
-      </div>
-
-      <div class="mb-40">
-        <img class="m-auto mb-20" src="images/logo-google.png" alt="google">
-        <img class="m-auto mb-20" src="images/logo-ibm.png" alt="ibm">
-        <img class="m-auto mb-20" src="images/logo-microsoft.png" alt="microsoft">
-        <img class="m-auto mb-20" src="images/logo-hp.png" alt="hp">
-        <img class="m-auto mb-20" src="images/logo-vector-graphics.png" alt="vector">
+      <div class="mb-40 md:flex md:justify-center md:mx-20 md:gap-10 md:flex-wrap">
+        <div class="md:min-w-36">
+          <img class="m-auto mb-20 md:mb-0" src="images/logo-google.png" alt="google" />
+        </div>
+        <div class="md:min-w-36">
+          <img class="m-auto mb-20 md:mb-0" src="images/logo-ibm.png" alt="ibm" />
+        </div>
+        <div class="md:min-w-36">
+          <img class="m-auto mb-20 md:mb-0" src="images/logo-microsoft.png" alt="microsoft"
+          />
+        </div>
+        <div class="md:min-w-36">
+          <img class="m-auto mb-20 md:mb-0" src="images/logo-hp.png" alt="hp" />
+        </div>
+        <div class="md:min-w-36">
+          <img class="m-auto mb-20 md:mb-0" src="images/logo-vector-graphics.png" alt="vector"
+          />
+        </div>
       </div>
 
       <div class="mb-10">
-        <h2 class="text-darkGrayishBlue mb-5 text-center text-3xl font-semibold">Clipboard for iOS and Mac OS</h2>
-      <p class="text-center">
-        Available for free on the App Store. Download for Mac or iOS, sync with
-        iCloud and you’re ready to start adding to your clipboard.
-      </p>
+        <h2
+          class="text-darkGrayishBlue mb-5 text-center text-3xl md:text-4xl font-semibold"
+        >
+          Clipboard for iOS and Mac OS
+        </h2>
+        <p class="text-center max-w-[680px] m-auto">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you’re ready to start adding to your clipboard.
+        </p>
       </div>
 
-      <div class="mb-40 flex flex-col items-center gap-5">
+       <div
+        class="mb-40 flex flex-col items-center gap-5 md:flex-row md:justify-center"
+      >
         <button
-          class="bg-strongCyan w-full min-w-max max-w-sm rounded-full border-b-4 border-b-teal-600 px-10 py-4 text-white shadow-lg shadow-cyan-100"
+          class="bg-strongCyan w-full min-w-max max-w-sm rounded-full border-b-4 border-b-teal-600 px-10 py-3 text-white shadow-lg shadow-cyan-100 md:max-w-max"
         >
           Download for iOS
         </button>
         <button
-          class="bg-lightBlue w-full min-w-max max-w-sm rounded-full border-b-4 border-b-blue-600 px-10 py-4 text-white shadow-lg shadow-blue-100"
+          class="bg-lightBlue w-full min-w-max max-w-sm rounded-full border-b-4 border-b-blue-600 px-10 py-3 text-white shadow-lg shadow-blue-100 md:max-w-max"
         >
           Download for Mac
         </button>
       </div>
-
     </main>
-    
+
     <footer>
-      <div class="text-center bg-gray-100 p-10">
-        <img class="m-auto mb-10 w-16" src="images/logo.svg" alt="logo">
-        <div class="text-darkGrayishBlue mb-6">FAQs</div>
-        <div class="text-darkGrayishBlue mb-6">Contact Us</div>
-        <div class="text-darkGrayishBlue mb-6">Privacy Policy</div>
-        <div class="text-darkGrayishBlue mb-6">Press Kit</div>
-        <div class="text-darkGrayishBlue mb-6">Install Guide</div>
-  
-        <div class="flex gap-10 justify-center mt-10">
-          <img src="images/icon-facebook.svg" alt="facebook">
-          <img src="images/icon-twitter.svg" alt="twitter">
-          <img src="images/icon-instagram.svg" alt="instagram">
+      <div class="bg-gray-100 p-10 text-center md:flex">
+        <div class="flex justify-center items-center mb-10 md:mb-0 md:w-1/5" >
+          <img class="md:h-10" src="images/logo.svg" alt="logo" />
+        </div>
+        <div class="md:w-2/5 md:grid md:grid-rows-3 md:grid-flow-col lg:grid-rows-2">
+          <div class="text-darkGrayishBlue mb-6 md:mb-2 md:text-left">FAQs</div>
+          <div class="text-darkGrayishBlue mb-6 md:mb-2 md:text-left">Contact Us</div>
+          <div class="text-darkGrayishBlue mb-6 md:mb-2 md:text-left">Privacy Policy</div>
+          <div class="text-darkGrayishBlue mb-6 md:mb-2 md:text-left">Press Kit</div>
+          <div class="text-darkGrayishBlue mb-6 md:mb-2 md:text-left">Install Guide</div>
+        </div>
+        <div class="mt-10 flex justify-center items-center gap-10 md:mt-0 md:w-2/5">
+          <div><img src="images/icon-facebook.svg" alt="facebook" /></div>
+          <div><img src="images/icon-twitter.svg" alt="twitter" /></div>
+          <div><img src="images/icon-instagram.svg" alt="instagram" /></div>
         </div>
       </div>
-      
+
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
